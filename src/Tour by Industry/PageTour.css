@@ -1,0 +1,8 @@
+.container{
+    max-width: 100% !important;
+    background-image: url(https://static.mywebsites360.com/c7cc6c7a55d9438c8f49111c9b6bf109/i/c8adaadb55ed41adbdc6df123e189d55/20/5feFb8zhrk/bg-dots.png?dpr=2);
+    background-position: 50% 0;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

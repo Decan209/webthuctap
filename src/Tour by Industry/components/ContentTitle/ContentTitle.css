@@ -1,0 +1,64 @@
+.content-title{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+    padding: 40px 0;
+}
+
+.h2-title{
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: normal;
+    font-family: source-sans-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.Btn-title{
+    text-align: center;
+    margin: 50px;
+}
+
+button{
+    margin: 0 auto !important;
+    padding: .75em 2em;
+    border-radius: 5px !important;
+    background-color: #006dd0;
+    border: none;
+    color: #ffff;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 20%);
+}
+.span{
+    display: block;
+    padding: 10px;
+}
+.rate{
+    display: flex;
+    justify-content: center;
+}
+.rate-img{
+    max-width: 100%;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 0;
+    box-sizing: border-box;
+}
+.rate-title{
+    font-family: source-sans-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 5px;
+    padding: 0 10px;
+}
+.ratinglogo{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.ratinglogo li{
+    list-style: none;
+    padding: 20px;
+}
+.typeWriter{
+    color: #006dd0 !important;
+}

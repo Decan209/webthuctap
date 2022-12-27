@@ -1,0 +1,14 @@
+.block-container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 581px;
+    padding: 30px 0;
+}
+.block-text{
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: normal;
+    padding-left: 0;
+    margin-right: 0;
+}
