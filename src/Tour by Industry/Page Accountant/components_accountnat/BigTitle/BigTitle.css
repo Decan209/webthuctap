@@ -1,0 +1,85 @@
+.Big-title{
+    display: flex;
+    width: 100%;
+}
+.contentTitle{
+    float: left;
+    width: 50%;
+    padding: 4%;
+
+}
+.Title{
+    line-height: 1.1;
+    font-size: 52px;
+    font-family: source-sans-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #24282f;
+}
+.content-img{
+    max-width: 50%;
+    max-height: 500px;
+}
+.Title-span{
+    color: #006dd0
+}
+.blockTitle{
+    max-width: 500px;
+    margin-left: 0;
+    margin-right: auto;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 20px;
+}
+.itemTitles{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    background-color: none;
+}
+.contentPreview{
+    width: 100%;
+    padding:10px 20px 20px 0;
+}
+.itemTitle{
+    font-size: 24px;
+    font-weight: 600;
+}
+.itemContent{
+    padding-top: 14x;
+}
+.btnTitle{
+    font-weight: 600;
+    margin-left: 4% !important;
+    padding: .75em 2em;
+    border-radius: 5px !important;
+    background-color: #006dd0;
+    border: none;
+    color: #ffff;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 20%);
+}
+.playWatch{
+    font-size: 30px;
+    border: none;
+    background: none;
+    position: relative;
+    top: 8px;
+    left: 16px;
+}
+.play-span{
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    bottom: 4px;
+}
+.Big-text{
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+    font-family: source-sans-pro, sans-serif;
+    margin: 50px;
+    padding: 20px 50px;
+    line-height: 1.2em;
+}

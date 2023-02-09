@@ -1,6 +1,8 @@
 import React from 'react'
 import { Typewriter } from 'react-simple-typewriter'
 import './ContentTitle.css'
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import Rate from '../Rate/Rate';
 
 
 
@@ -23,12 +25,12 @@ function ContentTitle() {
             .
         </h2>
         <div className='Btn-title'  data-aos="fade-up">
-            <button>Plans & Pricing</button>
+            <button className='BtnPlans'>Plans & Pricing</button>
             <span className='span'>Plus, explore free account tools. No credit card required.</span>
         </div>
         <div className='rate'>
-            <img src="https://static.mywebsites360.com/c7cc6c7a55d9438c8f49111c9b6bf109/i/a66003df3d394848b52749057f23aa72/20/5feFb8zhrk/gold-stars2.png?dpr=2" alt="" className='rate-img'/>
-            <span className='rate-title'>3,500+ Reviews</span>
+            <Rate/>
+            <div>Ratting</div>
         </div>
         <ul className='ratinglogo'>
             <li>

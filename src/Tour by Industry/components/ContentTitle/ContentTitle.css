@@ -19,7 +19,7 @@
     margin: 50px;
 }
 
-button{
+.BtnPlans{
     margin: 0 auto !important;
     padding: .75em 2em;
     border-radius: 5px !important;
@@ -32,23 +32,12 @@ button{
     display: block;
     padding: 10px;
 }
-.rate{
-    display: flex;
-    justify-content: center;
-}
-.rate-img{
-    max-width: 100%;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 0;
-    box-sizing: border-box;
-}
 .rate-title{
     font-family: source-sans-pro, sans-serif;
     font-weight: 600;
     font-style: normal;
-    margin-top: 5px;
-    padding: 0 10px;
+    margin: auto 0;
+    padding: 21px 10px;
 }
 .ratinglogo{
     display: flex;
@@ -61,4 +50,11 @@ button{
 }
 .typeWriter{
     color: #006dd0 !important;
+}
+.starShape{
+    color: #ccc;
+    font-size: 26px;
+    padding: 5px;
+    align-items: center;
+    margin-bottom: 5px;
 }
